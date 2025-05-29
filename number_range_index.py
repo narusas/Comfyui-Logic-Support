@@ -57,35 +57,31 @@ class NumberRangeIndex:
         # base_type에 따라 범위 체크 방식 결정
         is_base_0 = base_type == "base 0"
         
-        # 범위 체크
-        for i in range(len(filtered_values)):
-            # 마지막 경계값인 경우
-            if i == len(filtered_values) - 1:
-                # 마지막 경계값보다 크면 마지막 인덱스 반환
-                if number >= filtered_values[i]:
-                    return (i,)
-            # 첫 번째 경계값인 경우
-            elif i == 0:
-                # base_type에 따라 첫 범위 체크
-                if is_base_0:
-                    # base 0: 0 <= number < value_2
-                    if number < filtered_values[1]:
-                        return (0,)
-                else:
-                    # base 1: value_1 < number <= value_2
-                    if filtered_values[0] < number <= filtered_values[1]:
-                        return (1,)
-            # 중간 경계값들
+        # 마지막 경계값보다 크면 마지막 인덱스 반환
+        if number >= filtered_values[-1]:
+            if is_base_0:
+                return (len(filtered_values) - 1,)
             else:
-                # 현재 경계값과 다음 경계값 사이에 있는지 확인
-                if is_base_0:
-                    # base 0: value_i <= number < value_i+1
-                    if filtered_values[i] <= number < filtered_values[i+1]:
-                        return (i,)
-                else:
-                    # base 1: value_i < number <= value_i+1
-                    if filtered_values[i] < number <= filtered_values[i+1]:
-                        return (i+1,)
+                return (len(filtered_values),)
+        
+        # 각 범위 체크
+        for i in range(len(filtered_values) - 1):
+            # 현재 경계값과 다음 경계값 사이에 있는지 확인
+            if is_base_0:
+                # base 0: value_i <= number < value_i+1
+                if filtered_values[i] <= number < filtered_values[i+1]:
+                    return (i,)
+            else:
+                # base 1: value_i < number <= value_i+1
+                if filtered_values[i] < number <= filtered_values[i+1]:
+                    return (i+1,)
+        
+        # 첫 번째 경계값보다 작은 경우
+        if number < filtered_values[0]:
+            if is_base_0:
+                return (0,)  # base 0에서는 처음 범위에 포함
+            else:
+                return (default_index,)  # base 1에서는 어떤 범위에도 포함되지 않음
         
         # 어떤 범위에도 속하지 않으면 기본 인덱스 반환
         return (default_index,)
