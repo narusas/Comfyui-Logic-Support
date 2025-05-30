@@ -1,1 +1,1872 @@
-{"id":"f5aded04-5505-41ce-88bb-0deadb7bc860","revision":0,"last_node_id":49,"last_link_id":52,"nodes":[{"id":27,"type":"ImpactWildcardProcessor","pos":[1300.1337890625,935.9044189453125],"size":[628.3653564453125,401.6740417480469],"flags":{"collapsed":true},"order":0,"mode":0,"inputs":[{"localized_name":"wildcard_text","name":"wildcard_text","type":"STRING","widget":{"name":"wildcard_text"},"link":null},{"localized_name":"populated_text","name":"populated_text","type":"STRING","widget":{"name":"populated_text"},"link":null},{"localized_name":"mode","name":"mode","type":"COMBO","widget":{"name":"mode"},"link":null},{"localized_name":"seed","name":"seed","type":"INT","widget":{"name":"seed"},"link":null},{"localized_name":"Select to add Wildcard","name":"Select to add Wildcard","type":"COMBO","widget":{"name":"Select to add Wildcard"},"link":null}],"outputs":[{"localized_name":"processed text","name":"processed text","type":"STRING","slot_index":0,"links":[24]}],"title":"Hair (10~15)","properties":{"cnr_id":"comfyui-impact-pack","ver":"b22aa90cf4a419a8ba9881f90827fbb35dad2612","Node name for S&R":"ImpactWildcardProcessor","widget_ue_connectable":{}},"widgets_values":["{See-Through Bangs with Bob |  Layered Medium Bob |  High Ponytail | Twin Tails | Side Bangs with Bob |  Wavy Medium Bob | Half-Up Bun | Long Layered Hair | Double Buns  | Long Straight Hair  |Waist-Length Straight Hair }","Waist-Length Straight Hair ","populate",268889763975393,"randomize","Select the Wildcard to add to the text"],"color":"#232","bgcolor":"#353"},{"id":19,"type":"ImpactWildcardProcessor","pos":[1301.21728515625,1008.426025390625],"size":[628.3653564453125,401.6740417480469],"flags":{"collapsed":true},"order":1,"mode":0,"inputs":[{"localized_name":"wildcard_text","name":"wildcard_text","type":"STRING","widget":{"name":"wildcard_text"},"link":null},{"localized_name":"populated_text","name":"populated_text","type":"STRING","widget":{"name":"populated_text"},"link":null},{"localized_name":"mode","name":"mode","type":"COMBO","widget":{"name":"mode"},"link":null},{"localized_name":"seed","name":"seed","type":"INT","widget":{"name":"seed"},"link":null},{"localized_name":"Select to add Wildcard","name":"Select to add Wildcard","type":"COMBO","widget":{"name":"Select to add Wildcard"},"link":null}],"outputs":[{"localized_name":"processed text","name":"processed text","type":"STRING","slot_index":0,"links":[26]}],"title":"Hair (15~20)","properties":{"cnr_id":"comfyui-impact-pack","ver":"b22aa90cf4a419a8ba9881f90827fbb35dad2612","Node name for S&R":"ImpactWildcardProcessor","widget_ue_connectable":{}},"widgets_values":["{ Hime Cut | See-Through Bangs with Medium Bob |  Long Layered Hair | Pixie Cut  | Short Crop | Wavy Long Hair | Side-Parted Bob |  High Bun | Curtain Bangs | Messy Ponytail | Long Straight Hair  |Waist-Length Straight Hair }"," See-Through Bangs with Medium Bob ","populate",1032847183702494,"randomize","Select the Wildcard to add to the text"],"color":"#232","bgcolor":"#353"},{"id":20,"type":"ImpactWildcardProcessor","pos":[1301.21728515625,1058.5211181640625],"size":[628.3653564453125,401.6740417480469],"flags":{"collapsed":true},"order":2,"mode":0,"inputs":[{"localized_name":"wildcard_text","name":"wildcard_text","type":"STRING","widget":{"name":"wildcard_text"},"link":null},{"localized_name":"populated_text","name":"populated_text","type":"STRING","widget":{"name":"populated_text"},"link":null},{"localized_name":"mode","name":"mode","type":"COMBO","widget":{"name":"mode"},"link":null},{"localized_name":"seed","name":"seed","type":"INT","widget":{"name":"seed"},"link":null},{"localized_name":"Select to add Wildcard","name":"Select to add Wildcard","type":"COMBO","widget":{"name":"Select to add Wildcard"},"link":null}],"outputs":[{"localized_name":"processed text","name":"processed text","type":"STRING","slot_index":0,"links":[27]}],"title":"Hair (20~25)","properties":{"cnr_id":"comfyui-impact-pack","ver":"b22aa90cf4a419a8ba9881f90827fbb35dad2612","Node name for S&R":"ImpactWildcardProcessor","widget_ue_connectable":{}},"widgets_values":["{ Hush Cut | Curtain Bangs with Long Hair | Wavy Long Hair |   Pixie Cut |  Short Crop hair |  Layered Medium Bob |  Hime Cut | See-Through Bangs with Bob | Low Bun | Messy Ponytail | Side-Parted Wavy Hair  | Long Straight Hair  |Waist-Length Straight Hair}","  Hime Cut ","populate",876565924008688,"randomize","Select the Wildcard to add to the text"],"color":"#232","bgcolor":"#353"},{"id":21,"type":"ImpactWildcardProcessor","pos":[1301.21728515625,1117.0052490234375],"size":[628.3653564453125,401.6740417480469],"flags":{"collapsed":true},"order":3,"mode":0,"inputs":[{"localized_name":"wildcard_text","name":"wildcard_text","type":"STRING","widget":{"name":"wildcard_text"},"link":null},{"localized_name":"populated_text","name":"populated_text","type":"STRING","widget":{"name":"populated_text"},"link":null},{"localized_name":"mode","name":"mode","type":"COMBO","widget":{"name":"mode"},"link":null},{"localized_name":"seed","name":"seed","type":"INT","widget":{"name":"seed"},"link":null},{"localized_name":"Select to add Wildcard","name":"Select to add Wildcard","type":"COMBO","widget":{"name":"Select to add Wildcard"},"link":null}],"outputs":[{"localized_name":"processed text","name":"processed text","type":"STRING","slot_index":0,"links":[28]}],"title":"Hair (25~30)","properties":{"cnr_id":"comfyui-impact-pack","ver":"b22aa90cf4a419a8ba9881f90827fbb35dad2612","Node name for S&R":"ImpactWildcardProcessor","widget_ue_connectable":{}},"widgets_values":["{ Hush Cut | Curtain Bangs with Long Hair | Wavy Long Hair | Pixie Cut / Short Crop | Layered Medium Bob | Low Bun | Side-Parted Bob | Messy Ponytail | Hime Cut | C-Curl Perm Bob| Long Straight Hair |Waist-Length Straight Hair }","Waist-Length Straight Hair ","populate",316020259691762,"randomize","Select the Wildcard to add to the text"],"color":"#232","bgcolor":"#353"},{"id":22,"type":"ImpactWildcardProcessor","pos":[1301.21728515625,1174.7015380859375],"size":[628.3653564453125,401.6740417480469],"flags":{"collapsed":true},"order":4,"mode":0,"inputs":[{"localized_name":"wildcard_text","name":"wildcard_text","type":"STRING","widget":{"name":"wildcard_text"},"link":null},{"localized_name":"populated_text","name":"populated_text","type":"STRING","widget":{"name":"populated_text"},"link":null},{"localized_name":"mode","name":"mode","type":"COMBO","widget":{"name":"mode"},"link":null},{"localized_name":"seed","name":"seed","type":"INT","widget":{"name":"seed"},"link":null},{"localized_name":"Select to add Wildcard","name":"Select to add Wildcard","type":"COMBO","widget":{"name":"Select to add Wildcard"},"link":null}],"outputs":[{"localized_name":"processed text","name":"processed text","type":"STRING","slot_index":0,"links":[29]}],"title":"Hair (30~35)","properties":{"cnr_id":"comfyui-impact-pack","ver":"b22aa90cf4a419a8ba9881f90827fbb35dad2612","Node name for S&R":"ImpactWildcardProcessor","widget_ue_connectable":{}},"widgets_values":["{ Hush Cut | Layered Long Hair | Side-Parted Bob | Low Bun | C-Curl Perm Bob | Wavy Long Hair | Pixie Cut / Short Crop | Curtain Bangs with Medium Bob | Messy Ponytail | Bob Cut | Long Straight Hair  |Waist-Length Straight Hair}","Waist-Length Straight Hair","populate",1056366861297554,"randomize","Select the Wildcard to add to the text"],"color":"#232","bgcolor":"#353"},{"id":23,"type":"ImpactWildcardProcessor","pos":[1301.21728515625,1243.428955078125],"size":[628.3653564453125,401.6740417480469],"flags":{"collapsed":true},"order":5,"mode":0,"inputs":[{"localized_name":"wildcard_text","name":"wildcard_text","type":"STRING","widget":{"name":"wildcard_text"},"link":null},{"localized_name":"populated_text","name":"populated_text","type":"STRING","widget":{"name":"populated_text"},"link":null},{"localized_name":"mode","name":"mode","type":"COMBO","widget":{"name":"mode"},"link":null},{"localized_name":"seed","name":"seed","type":"INT","widget":{"name":"seed"},"link":null},{"localized_name":"Select to add Wildcard","name":"Select to add Wildcard","type":"COMBO","widget":{"name":"Select to add Wildcard"},"link":null}],"outputs":[{"localized_name":"processed text","name":"processed text","type":"STRING","slot_index":0,"links":[30]}],"title":"Hair (35~40)","properties":{"cnr_id":"comfyui-impact-pack","ver":"b22aa90cf4a419a8ba9881f90827fbb35dad2612","Node name for S&R":"ImpactWildcardProcessor","widget_ue_connectable":{}},"widgets_values":["{ Bob Cut | Layered Medium Bob | Low Bun | C-Curl Perm Bob | Side-Parted Bob | Wavy Long Hair | Hush Cut | Pixie Cut / Short Crop | Curtain Bangs with Long Hair | Messy Ponytail| Long Straight Hair   |Waist-Length Straight Hair}"," Curtain Bangs with Long Hair ","populate",636491893740605,"randomize","Select the Wildcard to add to the text"],"color":"#232","bgcolor":"#353"},{"id":24,"type":"ImpactWildcardProcessor","pos":[1301.21728515625,1308.5120849609375],"size":[628.3653564453125,401.6740417480469],"flags":{"collapsed":true},"order":6,"mode":0,"inputs":[{"localized_name":"wildcard_text","name":"wildcard_text","type":"STRING","widget":{"name":"wildcard_text"},"link":null},{"localized_name":"populated_text","name":"populated_text","type":"STRING","widget":{"name":"populated_text"},"link":null},{"localized_name":"mode","name":"mode","type":"COMBO","widget":{"name":"mode"},"link":null},{"localized_name":"seed","name":"seed","type":"INT","widget":{"name":"seed"},"link":null},{"localized_name":"Select to add Wildcard","name":"Select to add Wildcard","type":"COMBO","widget":{"name":"Select to add Wildcard"},"link":null}],"outputs":[{"localized_name":"processed text","name":"processed text","type":"STRING","slot_index":0,"links":[31]}],"title":"Hair (40~50)","properties":{"cnr_id":"comfyui-impact-pack","ver":"b22aa90cf4a419a8ba9881f90827fbb35dad2612","Node name for S&R":"ImpactWildcardProcessor","widget_ue_connectable":{}},"widgets_values":["{ Bob Cut | Layered Medium Bob | Low Bun | C-Curl Perm Bob | Side-Parted Bob | Pixie Cut / Short Crop | Wavy Medium Bob | Layered Long Hair | Messy Ponytail | Curtain Bangs with Bob| Long Straight Hair  |Waist-Length Straight Hair }"," Side-Parted Bob ","populate",313703358455428,"randomize","Select the Wildcard to add to the text"],"color":"#232","bgcolor":"#353"},{"id":25,"type":"ImpactWildcardProcessor","pos":[1301.93408203125,1389.11376953125],"size":[628.3653564453125,401.6740417480469],"flags":{"collapsed":true},"order":7,"mode":0,"inputs":[{"localized_name":"wildcard_text","name":"wildcard_text","type":"STRING","widget":{"name":"wildcard_text"},"link":null},{"localized_name":"populated_text","name":"populated_text","type":"STRING","widget":{"name":"populated_text"},"link":null},{"localized_name":"mode","name":"mode","type":"COMBO","widget":{"name":"mode"},"link":null},{"localized_name":"seed","name":"seed","type":"INT","widget":{"name":"seed"},"link":null},{"localized_name":"Select to add Wildcard","name":"Select to add Wildcard","type":"COMBO","widget":{"name":"Select to add Wildcard"},"link":null}],"outputs":[{"localized_name":"processed text","name":"processed text","type":"STRING","slot_index":0,"links":[32]}],"title":"Hair (50~60)","properties":{"cnr_id":"comfyui-impact-pack","ver":"b22aa90cf4a419a8ba9881f90827fbb35dad2612","Node name for S&R":"ImpactWildcardProcessor","widget_ue_connectable":{}},"widgets_values":["{ Bob Cut | Pixie Cut / Short Crop | Layered Medium Bob | Low Bun | C-Curl Perm Bob | Side-Parted Bob | Wavy Medium Bob | Messy Ponytail | Layered Short Cut | Curtain Bangs with Bob| Long Straight Hair  |Waist-Length Straight Hair }"," Messy Ponytail ","populate",81385304576131,"randomize","Select the Wildcard to add to the text"],"color":"#232","bgcolor":"#353"},{"id":26,"type":"ImpactWildcardProcessor","pos":[1303.3447265625,1452.9744873046875],"size":[628.3653564453125,401.6740417480469],"flags":{"collapsed":true},"order":8,"mode":0,"inputs":[{"localized_name":"wildcard_text","name":"wildcard_text","type":"STRING","widget":{"name":"wildcard_text"},"link":null},{"localized_name":"populated_text","name":"populated_text","type":"STRING","widget":{"name":"populated_text"},"link":null},{"localized_name":"mode","name":"mode","type":"COMBO","widget":{"name":"mode"},"link":null},{"localized_name":"seed","name":"seed","type":"INT","widget":{"name":"seed"},"link":null},{"localized_name":"Select to add Wildcard","name":"Select to add Wildcard","type":"COMBO","widget":{"name":"Select to add Wildcard"},"link":null}],"outputs":[{"localized_name":"processed text","name":"processed text","type":"STRING","slot_index":0,"links":[33]}],"title":"Hair (60~80)","properties":{"cnr_id":"comfyui-impact-pack","ver":"b22aa90cf4a419a8ba9881f90827fbb35dad2612","Node name for S&R":"ImpactWildcardProcessor","widget_ue_connectable":{}},"widgets_values":["{ Pixie Cut / Short Crop | Bob Cut | Layered Short Cut | C-Curl Perm Short Cut | Low Bun | Side-Parted Short Cut | Wavy Short Cut | Layered Medium Bob | Messy Ponytail | Curtain Bangs with Short Cut | Long Straight Hair |Waist-Length Straight Hair  }","Waist-Length Straight Hair  ","populate",391357963794281,"randomize","Select the Wildcard to add to the text"],"color":"#232","bgcolor":"#353"},{"id":18,"type":"ImpactWildcardProcessor","pos":[1301.21728515625,876.0142822265625],"size":[628.3653564453125,401.6740417480469],"flags":{"collapsed":true},"order":9,"mode":0,"inputs":[{"localized_name":"wildcard_text","name":"wildcard_text","type":"STRING","widget":{"name":"wildcard_text"},"link":null},{"localized_name":"populated_text","name":"populated_text","type":"STRING","widget":{"name":"populated_text"},"link":null},{"localized_name":"mode","name":"mode","type":"COMBO","widget":{"name":"mode"},"link":null},{"localized_name":"seed","name":"seed","type":"INT","widget":{"name":"seed"},"link":null},{"localized_name":"Select to add Wildcard","name":"Select to add Wildcard","type":"COMBO","widget":{"name":"Select to add Wildcard"},"link":null}],"outputs":[{"localized_name":"processed text","name":"processed text","type":"STRING","slot_index":0,"links":[25]}],"title":"Hair(~10)","properties":{"cnr_id":"comfyui-impact-pack","ver":"b22aa90cf4a419a8ba9881f90827fbb35dad2612","Node name for S&R":"ImpactWildcardProcessor","widget_ue_connectable":{}},"widgets_values":["under 10, {See-Through Bangs with Bob |  Layered Medium Bob |  High Ponytail | Twin Tails | Side Bangs with Bob |  Wavy Medium Bob | Half-Up Bun | Long Layered Hair | Double Buns | Long Straight Hair |Waist-Length Straight Hair}","under 10,  Long Straight Hair ","populate",274998227357842,"randomize","Select the Wildcard to add to the text"],"color":"#232","bgcolor":"#353"},{"id":42,"type":"Text Multiline","pos":[1335.7127685546875,542.6478881835938],"size":[370.1455993652344,88],"flags":{"collapsed":true},"order":10,"mode":0,"inputs":[{"localized_name":"text","name":"text","type":"STRING","widget":{"name":"text"},"link":null}],"outputs":[{"localized_name":"STRING","name":"STRING","type":"STRING","links":[43]}],"title":"school girl","properties":{"cnr_id":"was-node-suite-comfyui","ver":"1cd8d304eda256c412b8589ce1f00be3c61cf9ec","Node name for S&R":"Text Multiline"},"widgets_values":["beautiful school girl"]},{"id":43,"type":"Text Multiline","pos":[1335.7127685546875,589.5559692382812],"size":[370.1455993652344,88],"flags":{"collapsed":true},"order":11,"mode":0,"inputs":[{"localized_name":"text","name":"text","type":"STRING","widget":{"name":"text"},"link":null}],"outputs":[{"localized_name":"STRING","name":"STRING","type":"STRING","links":[45]}],"title":"colleage girl","properties":{"cnr_id":"was-node-suite-comfyui","ver":"1cd8d304eda256c412b8589ce1f00be3c61cf9ec","Node name for S&R":"Text Multiline"},"widgets_values":["beautiful colleage  girl"]},{"id":44,"type":"Text Multiline","pos":[1335.7127685546875,639.8040161132812],"size":[370.1455993652344,88],"flags":{"collapsed":true},"order":12,"mode":0,"inputs":[{"localized_name":"text","name":"text","type":"STRING","widget":{"name":"text"},"link":null}],"outputs":[{"localized_name":"STRING","name":"STRING","type":"STRING","links":[46]}],"title":"ms","properties":{"cnr_id":"was-node-suite-comfyui","ver":"1cd8d304eda256c412b8589ce1f00be3c61cf9ec","Node name for S&R":"Text Multiline"},"widgets_values":["beautiful woman"]},{"id":45,"type":"Text Multiline","pos":[1335.7127685546875,683.1918334960938],"size":[370.1455993652344,88],"flags":{"collapsed":true},"order":13,"mode":0,"inputs":[{"localized_name":"text","name":"text","type":"STRING","widget":{"name":"text"},"link":null}],"outputs":[{"localized_name":"STRING","name":"STRING","type":"STRING","links":[48]}],"title":"mrs","properties":{"cnr_id":"was-node-suite-comfyui","ver":"1cd8d304eda256c412b8589ce1f00be3c61cf9ec","Node name for S&R":"Text Multiline"},"widgets_values":["beautiful woman"]},{"id":46,"type":"Text Multiline","pos":[1335.7127685546875,734.2152709960938],"size":[370.1455993652344,88],"flags":{"collapsed":true},"order":14,"mode":0,"inputs":[{"localized_name":"text","name":"text","type":"STRING","widget":{"name":"text"},"link":null}],"outputs":[{"localized_name":"STRING","name":"STRING","type":"STRING","links":[49]}],"title":"mature","properties":{"cnr_id":"was-node-suite-comfyui","ver":"1cd8d304eda256c412b8589ce1f00be3c61cf9ec","Node name for S&R":"Text Multiline"},"widgets_values":["beautiful woman"]},{"id":48,"type":"Text Multiline","pos":[1868.5712890625,1256.7940673828125],"size":[370.1455993652344,88],"flags":{"collapsed":true},"order":15,"mode":0,"inputs":[{"localized_name":"text","name":"text","type":"STRING","widget":{"name":"text"},"link":null}],"outputs":[{"localized_name":"STRING","name":"STRING","type":"STRING","links":[51]}],"title":"location","properties":{"cnr_id":"was-node-suite-comfyui","ver":"1cd8d304eda256c412b8589ce1f00be3c61cf9ec","Node name for S&R":"Text Multiline"},"widgets_values":["city road"]},{"id":12,"type":"PrimitiveInt","pos":[871.5388793945312,654.8395385742188],"size":[270,82],"flags":{},"order":16,"mode":0,"inputs":[{"localized_name":"value","name":"value","type":"INT","widget":{"name":"value"},"link":null}],"outputs":[{"localized_name":"INT","name":"INT","type":"INT","links":[10,41]}],"title":"Age(Int)","properties":{"cnr_id":"comfy-core","ver":"0.3.38","Node name for S&R":"PrimitiveInt"},"widgets_values":[20,"fixed"]},{"id":37,"type":"StringConcatenator","pos":[2237.446533203125,874.158447265625],"size":[270,418],"flags":{},"order":25,"mode":0,"inputs":[{"localized_name":"separator_type","name":"separator_type","type":"COMBO","widget":{"name":"separator_type"},"link":null},{"localized_name":"string1","name":"string1","type":"STRING","widget":{"name":"string1"},"link":38},{"localized_name":"string2","name":"string2","type":"STRING","widget":{"name":"string2"},"link":47},{"localized_name":"string3","name":"string3","type":"STRING","widget":{"name":"string3"},"link":40},{"localized_name":"string4","name":"string4","type":"STRING","widget":{"name":"string4"},"link":50},{"localized_name":"string5","name":"string5","type":"STRING","widget":{"name":"string5"},"link":51},{"localized_name":"string6","name":"string6","shape":7,"type":"STRING","widget":{"name":"string6"},"link":52},{"localized_name":"string7","name":"string7","shape":7,"type":"STRING","widget":{"name":"string7"},"link":null},{"localized_name":"string8","name":"string8","shape":7,"type":"STRING","widget":{"name":"string8"},"link":null},{"localized_name":"string9","name":"string9","shape":7,"type":"STRING","widget":{"name":"string9"},"link":null},{"localized_name":"string10","name":"string10","shape":7,"type":"STRING","widget":{"name":"string10"},"link":null},{"localized_name":"string11","name":"string11","shape":7,"type":"STRING","widget":{"name":"string11"},"link":null},{"localized_name":"string12","name":"string12","shape":7,"type":"STRING","widget":{"name":"string12"},"link":null},{"localized_name":"string13","name":"string13","shape":7,"type":"STRING","widget":{"name":"string13"},"link":null},{"localized_name":"string14","name":"string14","shape":7,"type":"STRING","widget":{"name":"string14"},"link":null},{"localized_name":"string15","name":"string15","shape":7,"type":"STRING","widget":{"name":"string15"},"link":null}],"outputs":[{"localized_name":"C","name":"C","type":"STRING","links":[36]}],"properties":{"aux_id":"narusas/Comfyui-Logic-Support","ver":"c27fb1342a777927d114e8440907c460684ca992","Node name for S&R":"StringConcatenator"},"widgets_values":["COMMA","","","","","","","","","","","","","","",""],"color":"#432","bgcolor":"#653"},{"id":10,"type":"NumberRangeIndex","pos":[1492.95458984375,893.7708740234375],"size":[270,466],"flags":{"collapsed":true},"order":21,"mode":0,"inputs":[{"localized_name":"number","name":"number","type":"INT","widget":{"name":"number"},"link":10},{"localized_name":"base_type","name":"base_type","type":"COMBO","widget":{"name":"base_type"},"link":null},{"localized_name":"value_1","name":"value_1","type":"INT","widget":{"name":"value_1"},"link":null},{"localized_name":"value_2","name":"value_2","type":"INT","widget":{"name":"value_2"},"link":null},{"localized_name":"value_3","name":"value_3","type":"INT","widget":{"name":"value_3"},"link":null},{"localized_name":"value_4","name":"value_4","type":"INT","widget":{"name":"value_4"},"link":null},{"localized_name":"value_5","name":"value_5","type":"INT","widget":{"name":"value_5"},"link":null},{"localized_name":"value_6","name":"value_6","type":"INT","widget":{"name":"value_6"},"link":null},{"localized_name":"value_7","name":"value_7","type":"INT","widget":{"name":"value_7"},"link":null},{"localized_name":"value_8","name":"value_8","type":"INT","widget":{"name":"value_8"},"link":null},{"localized_name":"value_9","name":"value_9","type":"INT","widget":{"name":"value_9"},"link":null},{"localized_name":"value_10","name":"value_10","type":"INT","widget":{"name":"value_10"},"link":null},{"localized_name":"value_11","name":"value_11","type":"INT","widget":{"name":"value_11"},"link":null},{"localized_name":"value_12","name":"value_12","type":"INT","widget":{"name":"value_12"},"link":null},{"localized_name":"value_13","name":"value_13","type":"INT","widget":{"name":"value_13"},"link":null},{"localized_name":"value_14","name":"value_14","type":"INT","widget":{"name":"value_14"},"link":null},{"localized_name":"value_15","name":"value_15","type":"INT","widget":{"name":"value_15"},"link":null},{"localized_name":"default_index","name":"default_index","type":"INT","widget":{"name":"default_index"},"link":null}],"outputs":[{"localized_name":"I","name":"I","type":"INT","links":[23]}],"properties":{"aux_id":"narusas/Comfyui-Logic-Support","ver":"c27fb1342a777927d114e8440907c460684ca992","Node name for S&R":"NumberRangeIndex"},"widgets_values":[5,"L <= n < R",1,10,15,20,25,30,35,40,50,60,80,110,120,130,140,1],"color":"#432","bgcolor":"#653"},{"id":35,"type":"StringSwitchByNumber","pos":[1473.484619140625,952.74658203125],"size":[270,418],"flags":{"collapsed":false},"order":23,"mode":0,"inputs":[{"localized_name":"number","name":"number","type":"INT","widget":{"name":"number"},"link":23},{"localized_name":"string1","name":"string1","type":"STRING","widget":{"name":"string1"},"link":25},{"localized_name":"string2","name":"string2","type":"STRING","widget":{"name":"string2"},"link":24},{"localized_name":"string3","name":"string3","type":"STRING","widget":{"name":"string3"},"link":26},{"localized_name":"string4","name":"string4","type":"STRING","widget":{"name":"string4"},"link":27},{"localized_name":"string5","name":"string5","type":"STRING","widget":{"name":"string5"},"link":28},{"localized_name":"string6","name":"string6","type":"STRING","widget":{"name":"string6"},"link":29},{"localized_name":"string7","name":"string7","type":"STRING","widget":{"name":"string7"},"link":30},{"localized_name":"string8","name":"string8","type":"STRING","widget":{"name":"string8"},"link":31},{"localized_name":"string9","name":"string9","type":"STRING","widget":{"name":"string9"},"link":32},{"localized_name":"string10","name":"string10","type":"STRING","widget":{"name":"string10"},"link":33},{"localized_name":"string11","name":"string11","type":"STRING","widget":{"name":"string11"},"link":null},{"localized_name":"string12","name":"string12","type":"STRING","widget":{"name":"string12"},"link":null},{"localized_name":"string13","name":"string13","type":"STRING","widget":{"name":"string13"},"link":null},{"localized_name":"string14","name":"string14","type":"STRING","widget":{"name":"string14"},"link":null},{"localized_name":"string15","name":"string15","type":"STRING","widget":{"name":"string15"},"link":null}],"outputs":[{"localized_name":"S","name":"S","type":"STRING","links":[40]}],"properties":{"aux_id":"narusas/Comfyui-Logic-Support","ver":"c27fb1342a777927d114e8440907c460684ca992","Node name for S&R":"StringSwitchByNumber"},"widgets_values":[1,"문자열1","문자열2","문자열3","문자열4","문자열5","문자열6","문자열7","문자열8","문자열9","문자열10","문자열11","문자열12","문자열13","문자열14","문자열15"],"color":"#432","bgcolor":"#653"},{"id":41,"type":"Text Multiline","pos":[1335.7127685546875,494.83184814453125],"size":[387.3970031738281,88],"flags":{"collapsed":true},"order":17,"mode":0,"inputs":[{"localized_name":"text","name":"text","type":"STRING","widget":{"name":"text"},"link":null}],"outputs":[{"localized_name":"STRING","name":"STRING","type":"STRING","links":[42]}],"title":"under 12","properties":{"cnr_id":"was-node-suite-comfyui","ver":"1cd8d304eda256c412b8589ce1f00be3c61cf9ec","Node name for S&R":"Text Multiline"},"widgets_values":["cute baby girl"]},{"id":39,"type":"NumberRangeIndex","pos":[1502.4293212890625,212.95367431640625],"size":[270,466],"flags":{"collapsed":false},"order":22,"mode":0,"inputs":[{"localized_name":"number","name":"number","type":"INT","widget":{"name":"number"},"link":41},{"localized_name":"base_type","name":"base_type","type":"COMBO","widget":{"name":"base_type"},"link":null},{"localized_name":"value_1","name":"value_1","type":"INT","widget":{"name":"value_1"},"link":null},{"localized_name":"value_2","name":"value_2","type":"INT","widget":{"name":"value_2"},"link":null},{"localized_name":"value_3","name":"value_3","type":"INT","widget":{"name":"value_3"},"link":null},{"localized_name":"value_4","name":"value_4","type":"INT","widget":{"name":"value_4"},"link":null},{"localized_name":"value_5","name":"value_5","type":"INT","widget":{"name":"value_5"},"link":null},{"localized_name":"value_6","name":"value_6","type":"INT","widget":{"name":"value_6"},"link":null},{"localized_name":"value_7","name":"value_7","type":"INT","widget":{"name":"value_7"},"link":null},{"localized_name":"value_8","name":"value_8","type":"INT","widget":{"name":"value_8"},"link":null},{"localized_name":"value_9","name":"value_9","type":"INT","widget":{"name":"value_9"},"link":null},{"localized_name":"value_10","name":"value_10","type":"INT","widget":{"name":"value_10"},"link":null},{"localized_name":"value_11","name":"value_11","type":"INT","widget":{"name":"value_11"},"link":null},{"localized_name":"value_12","name":"value_12","type":"INT","widget":{"name":"value_12"},"link":null},{"localized_name":"value_13","name":"value_13","type":"INT","widget":{"name":"value_13"},"link":null},{"localized_name":"value_14","name":"value_14","type":"INT","widget":{"name":"value_14"},"link":null},{"localized_name":"value_15","name":"value_15","type":"INT","widget":{"name":"value_15"},"link":null},{"localized_name":"default_index","name":"default_index","type":"INT","widget":{"name":"default_index"},"link":null}],"outputs":[{"localized_name":"I","name":"I","type":"INT","links":[44]}],"properties":{"aux_id":"narusas/Comfyui-Logic-Support","ver":"c27fb1342a777927d114e8440907c460684ca992","Node name for S&R":"NumberRangeIndex"},"widgets_values":[5,"L <= n < R",1,12,20,30,40,60,80,80,50,60,80,110,120,130,140,1],"color":"#432","bgcolor":"#653"},{"id":40,"type":"StringSwitchByNumber","pos":[1508.52490234375,747.0880126953125],"size":[270,418],"flags":{"collapsed":true},"order":24,"mode":0,"inputs":[{"localized_name":"number","name":"number","type":"INT","widget":{"name":"number"},"link":44},{"localized_name":"string1","name":"string1","type":"STRING","widget":{"name":"string1"},"link":42},{"localized_name":"string2","name":"string2","type":"STRING","widget":{"name":"string2"},"link":43},{"localized_name":"string3","name":"string3","type":"STRING","widget":{"name":"string3"},"link":45},{"localized_name":"string4","name":"string4","type":"STRING","widget":{"name":"string4"},"link":46},{"localized_name":"string5","name":"string5","type":"STRING","widget":{"name":"string5"},"link":48},{"localized_name":"string6","name":"string6","type":"STRING","widget":{"name":"string6"},"link":49},{"localized_name":"string7","name":"string7","type":"STRING","widget":{"name":"string7"},"link":null},{"localized_name":"string8","name":"string8","type":"STRING","widget":{"name":"string8"},"link":null},{"localized_name":"string9","name":"string9","type":"STRING","widget":{"name":"string9"},"link":null},{"localized_name":"string10","name":"string10","type":"STRING","widget":{"name":"string10"},"link":null},{"localized_name":"string11","name":"string11","type":"STRING","widget":{"name":"string11"},"link":null},{"localized_name":"string12","name":"string12","type":"STRING","widget":{"name":"string12"},"link":null},{"localized_name":"string13","name":"string13","type":"STRING","widget":{"name":"string13"},"link":null},{"localized_name":"string14","name":"string14","type":"STRING","widget":{"name":"string14"},"link":null},{"localized_name":"string15","name":"string15","type":"STRING","widget":{"name":"string15"},"link":null}],"outputs":[{"localized_name":"S","name":"S","type":"STRING","links":[47]}],"properties":{"aux_id":"narusas/Comfyui-Logic-Support","ver":"c27fb1342a777927d114e8440907c460684ca992","Node name for S&R":"StringSwitchByNumber"},"widgets_values":[1,"문자열1","문자열2","문자열3","문자열4","문자열5","문자열6","문자열7","문자열8","문자열9","문자열10","문자열11","문자열12","문자열13","문자열14","문자열15"],"color":"#432","bgcolor":"#653"},{"id":36,"type":"ShowText|pysssss","pos":[2615.693359375,874.693359375],"size":[341.73651123046875,165.9751434326172],"flags":{},"order":26,"mode":0,"inputs":[{"localized_name":"text","name":"text","type":"STRING","link":36}],"outputs":[{"localized_name":"STRING","name":"STRING","shape":6,"type":"STRING","links":null}],"properties":{"cnr_id":"comfyui-custom-scripts","ver":"aac13aa7ce35b07d43633c3bbe654a38c00d74f5","Node name for S&R":"ShowText|pysssss"},"widgets_values":["1girl,beautiful colleage  girl,  Hime Cut ,full shot, whole body, ,city road,golden sunset"]},{"id":38,"type":"PrimitiveString","pos":[2095.5966796875,878.0121459960938],"size":[270,58],"flags":{"collapsed":true},"order":18,"mode":0,"inputs":[{"localized_name":"value","name":"value","type":"STRING","widget":{"name":"value"},"link":null}],"outputs":[{"localized_name":"STRING","name":"STRING","type":"STRING","links":[38]}],"title":"1girl","properties":{"cnr_id":"comfy-core","ver":"0.3.38","Node name for S&R":"PrimitiveString"},"widgets_values":["1girl"]},{"id":47,"type":"Text Multiline","pos":[1868.84375,1129.8114013671875],"size":[370.1455993652344,88],"flags":{"collapsed":true},"order":19,"mode":0,"inputs":[{"localized_name":"text","name":"text","type":"STRING","widget":{"name":"text"},"link":null}],"outputs":[{"localized_name":"STRING","name":"STRING","type":"STRING","links":[50]}],"title":"frame","properties":{"cnr_id":"was-node-suite-comfyui","ver":"1cd8d304eda256c412b8589ce1f00be3c61cf9ec","Node name for S&R":"Text Multiline"},"widgets_values":["full shot, whole body, "]},{"id":49,"type":"Text Multiline","pos":[1872.7686767578125,1382.1951904296875],"size":[370.1455993652344,88],"flags":{"collapsed":true},"order":20,"mode":0,"inputs":[{"localized_name":"text","name":"text","type":"STRING","widget":{"name":"text"},"link":null}],"outputs":[{"localized_name":"STRING","name":"STRING","type":"STRING","links":[52]}],"title":"time","properties":{"cnr_id":"was-node-suite-comfyui","ver":"1cd8d304eda256c412b8589ce1f00be3c61cf9ec","Node name for S&R":"Text Multiline"},"widgets_values":["golden sunset"]}],"links":[[10,12,0,10,0,"INT"],[23,10,0,35,0,"INT"],[24,27,0,35,2,"STRING"],[25,18,0,35,1,"STRING"],[26,19,0,35,3,"STRING"],[27,20,0,35,4,"STRING"],[28,21,0,35,5,"STRING"],[29,22,0,35,6,"STRING"],[30,23,0,35,7,"STRING"],[31,24,0,35,8,"STRING"],[32,25,0,35,9,"STRING"],[33,26,0,35,10,"STRING"],[36,37,0,36,0,"STRING"],[38,38,0,37,1,"STRING"],[40,35,0,37,3,"STRING"],[41,12,0,39,0,"INT"],[42,41,0,40,1,"STRING"],[43,42,0,40,2,"STRING"],[44,39,0,40,0,"INT"],[45,43,0,40,3,"STRING"],[46,44,0,40,4,"STRING"],[47,40,0,37,2,"STRING"],[48,45,0,40,5,"STRING"],[49,46,0,40,6,"STRING"],[50,47,0,37,4,"STRING"],[51,48,0,37,5,"STRING"],[52,49,0,37,6,"STRING"]],"groups":[{"id":1,"title":"Subject","bounding":[1280.2283935546875,136.16436767578125,520.2060546875,651.5398559570312],"color":"#3f789e","font_size":24,"flags":{}},{"id":2,"title":"Hair style","bounding":[1290.1337890625,802.414306640625,504.1502990722656,657.5066528320312],"color":"#3f789e","font_size":24,"flags":{}}],"config":{},"extra":{"ds":{"scale":1.1,"offset":[-108.09016696265977,-390.92564486576555]}},"version":0.4}
+{
+  "id": "f5aded04-5505-41ce-88bb-0deadb7bc860",
+  "revision": 0,
+  "last_node_id": 60,
+  "last_link_id": 70,
+  "nodes": [
+    {
+      "id": 27,
+      "type": "ImpactWildcardProcessor",
+      "pos": [
+        1294.646728515625,
+        959.1033935546875
+      ],
+      "size": [
+        628.3653564453125,
+        401.6740417480469
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "processed text",
+          "type": "STRING",
+          "slot_index": 0,
+          "links": [
+            24
+          ]
+        }
+      ],
+      "title": "Hair (10~15)",
+      "properties": {
+        "cnr_id": "comfyui-impact-pack",
+        "ver": "b22aa90cf4a419a8ba9881f90827fbb35dad2612",
+        "Node name for S&R": "ImpactWildcardProcessor",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "{See-Through Bangs with Bob |  Layered Medium Bob |  High Ponytail | Twin Tails | Side Bangs with Bob |  Wavy Medium Bob | Half-Up Bun | Long Layered Hair | Double Buns  | Long Straight Hair  |Waist-Length Straight Hair }",
+        "See-Through Bangs with Bob ",
+        "populate",
+        1035449047164532,
+        "randomize",
+        "Select the Wildcard to add to the text"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "ImpactWildcardProcessor",
+      "pos": [
+        1295.730224609375,
+        1031.6251220703125
+      ],
+      "size": [
+        628.3653564453125,
+        401.6740417480469
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "processed text",
+          "type": "STRING",
+          "slot_index": 0,
+          "links": [
+            26
+          ]
+        }
+      ],
+      "title": "Hair (15~20)",
+      "properties": {
+        "cnr_id": "comfyui-impact-pack",
+        "ver": "b22aa90cf4a419a8ba9881f90827fbb35dad2612",
+        "Node name for S&R": "ImpactWildcardProcessor",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "{ Hime Cut | See-Through Bangs with Medium Bob |  Long Layered Hair | Pixie Cut  | Short Crop | Wavy Long Hair | Side-Parted Bob |  High Bun | Curtain Bangs | Messy Ponytail | Long Straight Hair  |Waist-Length Straight Hair }",
+        " Long Straight Hair  ",
+        "populate",
+        892706097173926,
+        "randomize",
+        "Select the Wildcard to add to the text"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "ImpactWildcardProcessor",
+      "pos": [
+        1295.730224609375,
+        1081.72021484375
+      ],
+      "size": [
+        628.3653564453125,
+        401.6740417480469
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "processed text",
+          "type": "STRING",
+          "slot_index": 0,
+          "links": [
+            27
+          ]
+        }
+      ],
+      "title": "Hair (20~25)",
+      "properties": {
+        "cnr_id": "comfyui-impact-pack",
+        "ver": "b22aa90cf4a419a8ba9881f90827fbb35dad2612",
+        "Node name for S&R": "ImpactWildcardProcessor",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "{ Hush Cut | Curtain Bangs with Long Hair | Wavy Long Hair |   Pixie Cut |  Short Crop hair |  Layered Medium Bob |  Hime Cut | See-Through Bangs with Bob | Low Bun | Messy Ponytail | Side-Parted Wavy Hair  | Long Straight Hair  |Waist-Length Straight Hair}",
+        "  Short Crop hair ",
+        "populate",
+        471287605882561,
+        "randomize",
+        "Select the Wildcard to add to the text"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "ImpactWildcardProcessor",
+      "pos": [
+        1295.730224609375,
+        1140.204345703125
+      ],
+      "size": [
+        628.3653564453125,
+        401.6740417480469
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "processed text",
+          "type": "STRING",
+          "slot_index": 0,
+          "links": [
+            28
+          ]
+        }
+      ],
+      "title": "Hair (25~30)",
+      "properties": {
+        "cnr_id": "comfyui-impact-pack",
+        "ver": "b22aa90cf4a419a8ba9881f90827fbb35dad2612",
+        "Node name for S&R": "ImpactWildcardProcessor",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "{ Hush Cut | Curtain Bangs with Long Hair | Wavy Long Hair | Pixie Cut / Short Crop | Layered Medium Bob | Low Bun | Side-Parted Bob | Messy Ponytail | Hime Cut | C-Curl Perm Bob| Long Straight Hair |Waist-Length Straight Hair }",
+        " Hush Cut ",
+        "populate",
+        262932609946049,
+        "randomize",
+        "Select the Wildcard to add to the text"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "ImpactWildcardProcessor",
+      "pos": [
+        1295.730224609375,
+        1197.900634765625
+      ],
+      "size": [
+        628.3653564453125,
+        401.6740417480469
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "processed text",
+          "type": "STRING",
+          "slot_index": 0,
+          "links": [
+            29
+          ]
+        }
+      ],
+      "title": "Hair (30~35)",
+      "properties": {
+        "cnr_id": "comfyui-impact-pack",
+        "ver": "b22aa90cf4a419a8ba9881f90827fbb35dad2612",
+        "Node name for S&R": "ImpactWildcardProcessor",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "{ Hush Cut | Layered Long Hair | Side-Parted Bob | Low Bun | C-Curl Perm Bob | Wavy Long Hair | Pixie Cut / Short Crop | Curtain Bangs with Medium Bob | Messy Ponytail | Bob Cut | Long Straight Hair  |Waist-Length Straight Hair}",
+        " Wavy Long Hair ",
+        "populate",
+        357261017799182,
+        "randomize",
+        "Select the Wildcard to add to the text"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "ImpactWildcardProcessor",
+      "pos": [
+        1295.730224609375,
+        1266.6280517578125
+      ],
+      "size": [
+        628.3653564453125,
+        401.6740417480469
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "processed text",
+          "type": "STRING",
+          "slot_index": 0,
+          "links": [
+            30
+          ]
+        }
+      ],
+      "title": "Hair (35~40)",
+      "properties": {
+        "cnr_id": "comfyui-impact-pack",
+        "ver": "b22aa90cf4a419a8ba9881f90827fbb35dad2612",
+        "Node name for S&R": "ImpactWildcardProcessor",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "{ Bob Cut | Layered Medium Bob | Low Bun | C-Curl Perm Bob | Side-Parted Bob | Wavy Long Hair | Hush Cut | Pixie Cut / Short Crop | Curtain Bangs with Long Hair | Messy Ponytail| Long Straight Hair   |Waist-Length Straight Hair}",
+        " Wavy Long Hair ",
+        "populate",
+        834685399324207,
+        "randomize",
+        "Select the Wildcard to add to the text"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "ImpactWildcardProcessor",
+      "pos": [
+        1295.730224609375,
+        1331.711181640625
+      ],
+      "size": [
+        628.3653564453125,
+        401.6740417480469
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "processed text",
+          "type": "STRING",
+          "slot_index": 0,
+          "links": [
+            31
+          ]
+        }
+      ],
+      "title": "Hair (40~50)",
+      "properties": {
+        "cnr_id": "comfyui-impact-pack",
+        "ver": "b22aa90cf4a419a8ba9881f90827fbb35dad2612",
+        "Node name for S&R": "ImpactWildcardProcessor",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "{ Bob Cut | Layered Medium Bob | Low Bun | C-Curl Perm Bob | Side-Parted Bob | Pixie Cut / Short Crop | Wavy Medium Bob | Layered Long Hair | Messy Ponytail | Curtain Bangs with Bob| Long Straight Hair  |Waist-Length Straight Hair }",
+        " C-Curl Perm Bob ",
+        "populate",
+        187985319583939,
+        "randomize",
+        "Select the Wildcard to add to the text"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "ImpactWildcardProcessor",
+      "pos": [
+        1296.447021484375,
+        1412.3128662109375
+      ],
+      "size": [
+        628.3653564453125,
+        401.6740417480469
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "processed text",
+          "type": "STRING",
+          "slot_index": 0,
+          "links": [
+            32
+          ]
+        }
+      ],
+      "title": "Hair (50~60)",
+      "properties": {
+        "cnr_id": "comfyui-impact-pack",
+        "ver": "b22aa90cf4a419a8ba9881f90827fbb35dad2612",
+        "Node name for S&R": "ImpactWildcardProcessor",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "{ Bob Cut | Pixie Cut / Short Crop | Layered Medium Bob | Low Bun | C-Curl Perm Bob | Side-Parted Bob | Wavy Medium Bob | Messy Ponytail | Layered Short Cut | Curtain Bangs with Bob| Long Straight Hair  |Waist-Length Straight Hair }",
+        " Curtain Bangs with Bob",
+        "populate",
+        108526114362340,
+        "randomize",
+        "Select the Wildcard to add to the text"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "ImpactWildcardProcessor",
+      "pos": [
+        1297.857666015625,
+        1476.173583984375
+      ],
+      "size": [
+        628.3653564453125,
+        401.6740417480469
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "processed text",
+          "type": "STRING",
+          "slot_index": 0,
+          "links": [
+            33
+          ]
+        }
+      ],
+      "title": "Hair (60~80)",
+      "properties": {
+        "cnr_id": "comfyui-impact-pack",
+        "ver": "b22aa90cf4a419a8ba9881f90827fbb35dad2612",
+        "Node name for S&R": "ImpactWildcardProcessor",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "{ Pixie Cut / Short Crop | Bob Cut | Layered Short Cut | C-Curl Perm Short Cut | Low Bun | Side-Parted Short Cut | Wavy Short Cut | Layered Medium Bob | Messy Ponytail | Curtain Bangs with Short Cut | Long Straight Hair |Waist-Length Straight Hair  }",
+        " Long Straight Hair ",
+        "populate",
+        859055325840659,
+        "randomize",
+        "Select the Wildcard to add to the text"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "ImpactWildcardProcessor",
+      "pos": [
+        1295.730224609375,
+        899.2132568359375
+      ],
+      "size": [
+        628.3653564453125,
+        401.6740417480469
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "processed text",
+          "type": "STRING",
+          "slot_index": 0,
+          "links": [
+            25
+          ]
+        }
+      ],
+      "title": "Hair(~10)",
+      "properties": {
+        "cnr_id": "comfyui-impact-pack",
+        "ver": "b22aa90cf4a419a8ba9881f90827fbb35dad2612",
+        "Node name for S&R": "ImpactWildcardProcessor",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "under 10, {See-Through Bangs with Bob |  Layered Medium Bob |  High Ponytail | Twin Tails | Side Bangs with Bob |  Wavy Medium Bob | Half-Up Bun | Long Layered Hair | Double Buns | Long Straight Hair |Waist-Length Straight Hair}",
+        "under 10,   Layered Medium Bob ",
+        "populate",
+        1082105760030987,
+        "randomize",
+        "Select the Wildcard to add to the text"
+      ]
+    },
+    {
+      "id": 42,
+      "type": "Text Multiline",
+      "pos": [
+        1335.7127685546875,
+        542.6478881835938
+      ],
+      "size": [
+        370.1455993652344,
+        88
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 10,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            43
+          ]
+        }
+      ],
+      "title": "school girl",
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "1cd8d304eda256c412b8589ce1f00be3c61cf9ec",
+        "Node name for S&R": "Text Multiline"
+      },
+      "widgets_values": [
+        "beautiful school girl"
+      ]
+    },
+    {
+      "id": 45,
+      "type": "Text Multiline",
+      "pos": [
+        1335.7127685546875,
+        683.1918334960938
+      ],
+      "size": [
+        370.1455993652344,
+        88
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 11,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            48
+          ]
+        }
+      ],
+      "title": "mrs",
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "1cd8d304eda256c412b8589ce1f00be3c61cf9ec",
+        "Node name for S&R": "Text Multiline"
+      },
+      "widgets_values": [
+        "beautiful woman"
+      ]
+    },
+    {
+      "id": 46,
+      "type": "Text Multiline",
+      "pos": [
+        1335.7127685546875,
+        734.2152709960938
+      ],
+      "size": [
+        370.1455993652344,
+        88
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 12,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            49
+          ]
+        }
+      ],
+      "title": "mature",
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "1cd8d304eda256c412b8589ce1f00be3c61cf9ec",
+        "Node name for S&R": "Text Multiline"
+      },
+      "widgets_values": [
+        "beautiful woman"
+      ]
+    },
+    {
+      "id": 48,
+      "type": "Text Multiline",
+      "pos": [
+        1868.5712890625,
+        1256.7940673828125
+      ],
+      "size": [
+        370.1455993652344,
+        88
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 13,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            55
+          ]
+        }
+      ],
+      "title": "location",
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "1cd8d304eda256c412b8589ce1f00be3c61cf9ec",
+        "Node name for S&R": "Text Multiline"
+      },
+      "widgets_values": [
+        "city road"
+      ]
+    },
+    {
+      "id": 41,
+      "type": "Text Multiline",
+      "pos": [
+        1335.7127685546875,
+        494.83184814453125
+      ],
+      "size": [
+        387.3970031738281,
+        88
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 14,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            42
+          ]
+        }
+      ],
+      "title": "under 12",
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "1cd8d304eda256c412b8589ce1f00be3c61cf9ec",
+        "Node name for S&R": "Text Multiline"
+      },
+      "widgets_values": [
+        "cute baby girl"
+      ]
+    },
+    {
+      "id": 39,
+      "type": "NumberRangeIndex",
+      "pos": [
+        1502.4293212890625,
+        212.95367431640625
+      ],
+      "size": [
+        270,
+        466
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "number",
+          "type": "INT",
+          "widget": {
+            "name": "number"
+          },
+          "link": 64
+        }
+      ],
+      "outputs": [
+        {
+          "name": "I",
+          "type": "INT",
+          "links": [
+            44
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "narusas/Comfyui-Logic-Support",
+        "ver": "c27fb1342a777927d114e8440907c460684ca992",
+        "Node name for S&R": "NumberRangeIndex"
+      },
+      "widgets_values": [
+        5,
+        "L <= n < R",
+        1,
+        12,
+        20,
+        30,
+        40,
+        60,
+        80,
+        80,
+        50,
+        60,
+        80,
+        110,
+        120,
+        130,
+        140,
+        1
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 40,
+      "type": "StringSwitchByNumber",
+      "pos": [
+        1508.52490234375,
+        747.0880126953125
+      ],
+      "size": [
+        270,
+        418
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "number",
+          "type": "INT",
+          "widget": {
+            "name": "number"
+          },
+          "link": 44
+        },
+        {
+          "name": "string1",
+          "type": "STRING",
+          "widget": {
+            "name": "string1"
+          },
+          "link": 42
+        },
+        {
+          "name": "string2",
+          "type": "STRING",
+          "widget": {
+            "name": "string2"
+          },
+          "link": 43
+        },
+        {
+          "name": "string3",
+          "type": "STRING",
+          "widget": {
+            "name": "string3"
+          },
+          "link": 45
+        },
+        {
+          "name": "string4",
+          "type": "STRING",
+          "widget": {
+            "name": "string4"
+          },
+          "link": 46
+        },
+        {
+          "name": "string5",
+          "type": "STRING",
+          "widget": {
+            "name": "string5"
+          },
+          "link": 48
+        },
+        {
+          "name": "string6",
+          "type": "STRING",
+          "widget": {
+            "name": "string6"
+          },
+          "link": 49
+        }
+      ],
+      "outputs": [
+        {
+          "name": "S",
+          "type": "STRING",
+          "links": [
+            47
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "narusas/Comfyui-Logic-Support",
+        "ver": "c27fb1342a777927d114e8440907c460684ca992",
+        "Node name for S&R": "StringSwitchByNumber"
+      },
+      "widgets_values": [
+        1,
+        "문자열1",
+        "문자열2",
+        "문자열3",
+        "문자열4",
+        "문자열5",
+        "문자열6",
+        "문자열7",
+        "문자열8",
+        "문자열9",
+        "문자열10",
+        "문자열11",
+        "문자열12",
+        "문자열13",
+        "문자열14",
+        "문자열15"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 36,
+      "type": "ShowText|pysssss",
+      "pos": [
+        2615.693359375,
+        874.693359375
+      ],
+      "size": [
+        341.73651123046875,
+        165.9751434326172
+      ],
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 36
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "aac13aa7ce35b07d43633c3bbe654a38c00d74f5",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "1girl,beautiful colleage  girl,  Short Crop hair ,full shot, whole body, ,city road,golden sunset"
+      ]
+    },
+    {
+      "id": 47,
+      "type": "Text Multiline",
+      "pos": [
+        1868.84375,
+        1129.8114013671875
+      ],
+      "size": [
+        370.1455993652344,
+        88
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 15,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            56
+          ]
+        }
+      ],
+      "title": "frame",
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "1cd8d304eda256c412b8589ce1f00be3c61cf9ec",
+        "Node name for S&R": "Text Multiline"
+      },
+      "widgets_values": [
+        "full shot, whole body, "
+      ]
+    },
+    {
+      "id": 49,
+      "type": "Text Multiline",
+      "pos": [
+        1872.7686767578125,
+        1382.1951904296875
+      ],
+      "size": [
+        370.1455993652344,
+        88
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 16,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            54
+          ]
+        }
+      ],
+      "title": "time",
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "1cd8d304eda256c412b8589ce1f00be3c61cf9ec",
+        "Node name for S&R": "Text Multiline"
+      },
+      "widgets_values": [
+        "golden sunset"
+      ]
+    },
+    {
+      "id": 35,
+      "type": "StringSwitchByNumber",
+      "pos": [
+        1467.99755859375,
+        975.945556640625
+      ],
+      "size": [
+        270,
+        418
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "number",
+          "type": "INT",
+          "widget": {
+            "name": "number"
+          },
+          "link": 23
+        },
+        {
+          "name": "string1",
+          "type": "STRING",
+          "widget": {
+            "name": "string1"
+          },
+          "link": 25
+        },
+        {
+          "name": "string2",
+          "type": "STRING",
+          "widget": {
+            "name": "string2"
+          },
+          "link": 24
+        },
+        {
+          "name": "string3",
+          "type": "STRING",
+          "widget": {
+            "name": "string3"
+          },
+          "link": 26
+        },
+        {
+          "name": "string4",
+          "type": "STRING",
+          "widget": {
+            "name": "string4"
+          },
+          "link": 27
+        },
+        {
+          "name": "string5",
+          "type": "STRING",
+          "widget": {
+            "name": "string5"
+          },
+          "link": 28
+        },
+        {
+          "name": "string6",
+          "type": "STRING",
+          "widget": {
+            "name": "string6"
+          },
+          "link": 29
+        },
+        {
+          "name": "string7",
+          "type": "STRING",
+          "widget": {
+            "name": "string7"
+          },
+          "link": 30
+        },
+        {
+          "name": "string8",
+          "type": "STRING",
+          "widget": {
+            "name": "string8"
+          },
+          "link": 31
+        },
+        {
+          "name": "string9",
+          "type": "STRING",
+          "widget": {
+            "name": "string9"
+          },
+          "link": 32
+        },
+        {
+          "name": "string10",
+          "type": "STRING",
+          "widget": {
+            "name": "string10"
+          },
+          "link": 33
+        }
+      ],
+      "outputs": [
+        {
+          "name": "S",
+          "type": "STRING",
+          "links": [
+            57
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "narusas/Comfyui-Logic-Support",
+        "ver": "c27fb1342a777927d114e8440907c460684ca992",
+        "Node name for S&R": "StringSwitchByNumber"
+      },
+      "widgets_values": [
+        1,
+        "문자열1",
+        "문자열2",
+        "문자열3",
+        "문자열4",
+        "문자열5",
+        "문자열6",
+        "문자열7",
+        "문자열8",
+        "문자열9",
+        "문자열10",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 37,
+      "type": "StringConcatenator",
+      "pos": [
+        2235.83740234375,
+        893.320068359375
+      ],
+      "size": [
+        270,
+        418
+      ],
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string1",
+          "type": "STRING",
+          "widget": {
+            "name": "string1"
+          },
+          "link": 38
+        },
+        {
+          "name": "string2",
+          "type": "STRING",
+          "widget": {
+            "name": "string2"
+          },
+          "link": 47
+        },
+        {
+          "name": "string3",
+          "type": "STRING",
+          "widget": {
+            "name": "string3"
+          },
+          "link": 61
+        },
+        {
+          "name": "string4",
+          "type": "STRING",
+          "widget": {
+            "name": "string4"
+          },
+          "link": 57
+        },
+        {
+          "name": "string5",
+          "type": "STRING",
+          "widget": {
+            "name": "string5"
+          },
+          "link": 56
+        },
+        {
+          "name": "string6",
+          "shape": 7,
+          "type": "STRING",
+          "widget": {
+            "name": "string6"
+          },
+          "link": 55
+        },
+        {
+          "name": "string7",
+          "shape": 7,
+          "type": "STRING",
+          "widget": {
+            "name": "string7"
+          },
+          "link": 54
+        }
+      ],
+      "outputs": [
+        {
+          "name": "C",
+          "type": "STRING",
+          "links": [
+            36
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "narusas/Comfyui-Logic-Support",
+        "ver": "c27fb1342a777927d114e8440907c460684ca992",
+        "Node name for S&R": "StringConcatenator"
+      },
+      "widgets_values": [
+        "COMMA",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 53,
+      "type": "PrimitiveString",
+      "pos": [
+        1886.455322265625,
+        721.2113037109375
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 17,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            59
+          ]
+        }
+      ],
+      "title": "Office Lady",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.38",
+        "Node name for S&R": "PrimitiveString"
+      },
+      "widgets_values": [
+        "office lady"
+      ]
+    },
+    {
+      "id": 50,
+      "type": "NumberConditionChecker",
+      "pos": [
+        1866.1131591796875,
+        489.4346008300781
+      ],
+      "size": [
+        270,
+        154
+      ],
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "number",
+          "type": "INT",
+          "widget": {
+            "name": "number"
+          },
+          "link": 66
+        }
+      ],
+      "outputs": [
+        {
+          "name": "B",
+          "type": "BOOLEAN",
+          "links": [
+            58
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "narusas/Comfyui-Logic-Support",
+        "ver": "12955a9c1dda1abcf2811e34ee45f5b8a95f1bb9",
+        "Node name for S&R": "NumberConditionChecker"
+      },
+      "widgets_values": [
+        25,
+        "<=",
+        5,
+        "<",
+        40
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 54,
+      "type": "PrimitiveString",
+      "pos": [
+        1892.6630859375,
+        781.2323608398438
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 18,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            60
+          ]
+        }
+      ],
+      "title": "Woman",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.38",
+        "Node name for S&R": "PrimitiveString"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 52,
+      "type": "Text Input Switch",
+      "pos": [
+        2082.8427734375,
+        735.1922607421875
+      ],
+      "size": [
+        145.72714233398438,
+        66
+      ],
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_a",
+          "type": "STRING",
+          "link": 59
+        },
+        {
+          "name": "text_b",
+          "type": "STRING",
+          "link": 60
+        },
+        {
+          "name": "boolean",
+          "type": "BOOLEAN",
+          "link": 58
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            61
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "1cd8d304eda256c412b8589ce1f00be3c61cf9ec",
+        "Node name for S&R": "Text Input Switch"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 43,
+      "type": "Text Multiline",
+      "pos": [
+        1335.7127685546875,
+        589.5559692382812
+      ],
+      "size": [
+        370.1455993652344,
+        88
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 19,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            45
+          ]
+        }
+      ],
+      "title": "colleage girl",
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "1cd8d304eda256c412b8589ce1f00be3c61cf9ec",
+        "Node name for S&R": "Text Multiline"
+      },
+      "widgets_values": [
+        "beautiful colleage  girl"
+      ]
+    },
+    {
+      "id": 44,
+      "type": "Text Multiline",
+      "pos": [
+        1335.7127685546875,
+        639.8040161132812
+      ],
+      "size": [
+        370.1455993652344,
+        88
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 20,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            46
+          ]
+        }
+      ],
+      "title": "ms",
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "1cd8d304eda256c412b8589ce1f00be3c61cf9ec",
+        "Node name for S&R": "Text Multiline"
+      },
+      "widgets_values": [
+        "beautiful woman"
+      ]
+    },
+    {
+      "id": 38,
+      "type": "PrimitiveString",
+      "pos": [
+        2110.36767578125,
+        923.2994995117188
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 21,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            38
+          ]
+        }
+      ],
+      "title": "1girl",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.38",
+        "Node name for S&R": "PrimitiveString"
+      },
+      "widgets_values": [
+        "1girl"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "NumberRangeIndex",
+      "pos": [
+        1487.467529296875,
+        916.9698486328125
+      ],
+      "size": [
+        270,
+        466
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "number",
+          "type": "INT",
+          "widget": {
+            "name": "number"
+          },
+          "link": 63
+        }
+      ],
+      "outputs": [
+        {
+          "name": "I",
+          "type": "INT",
+          "links": [
+            23
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "narusas/Comfyui-Logic-Support",
+        "ver": "c27fb1342a777927d114e8440907c460684ca992",
+        "Node name for S&R": "NumberRangeIndex"
+      },
+      "widgets_values": [
+        5,
+        "L <= n < R",
+        1,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        50,
+        60,
+        80,
+        110,
+        120,
+        130,
+        140,
+        1
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 56,
+      "type": "Reroute",
+      "pos": [
+        1058.1826171875,
+        734.2138061523438
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "widget": {
+            "name": "value"
+          },
+          "link": 70
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "INT",
+          "links": [
+            63,
+            64,
+            66
+          ]
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 60,
+      "type": "NumberSequenceGenerator",
+      "pos": [
+        714.5238037109375,
+        732.3297119140625
+      ],
+      "size": [
+        283.5611267089844,
+        130
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "N",
+          "type": "INT",
+          "links": [
+            70
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "narusas/Comfyui-Logic-Support",
+        "ver": "3da116aeb22b4f6806c086e010d652017de15a18",
+        "Node name for S&R": "NumberSequenceGenerator"
+      },
+      "widgets_values": [
+        21,
+        30,
+        1,
+        "no"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    }
+  ],
+  "links": [
+    [
+      23,
+      10,
+      0,
+      35,
+      0,
+      "INT"
+    ],
+    [
+      24,
+      27,
+      0,
+      35,
+      2,
+      "STRING"
+    ],
+    [
+      25,
+      18,
+      0,
+      35,
+      1,
+      "STRING"
+    ],
+    [
+      26,
+      19,
+      0,
+      35,
+      3,
+      "STRING"
+    ],
+    [
+      27,
+      20,
+      0,
+      35,
+      4,
+      "STRING"
+    ],
+    [
+      28,
+      21,
+      0,
+      35,
+      5,
+      "STRING"
+    ],
+    [
+      29,
+      22,
+      0,
+      35,
+      6,
+      "STRING"
+    ],
+    [
+      30,
+      23,
+      0,
+      35,
+      7,
+      "STRING"
+    ],
+    [
+      31,
+      24,
+      0,
+      35,
+      8,
+      "STRING"
+    ],
+    [
+      32,
+      25,
+      0,
+      35,
+      9,
+      "STRING"
+    ],
+    [
+      33,
+      26,
+      0,
+      35,
+      10,
+      "STRING"
+    ],
+    [
+      36,
+      37,
+      0,
+      36,
+      0,
+      "STRING"
+    ],
+    [
+      38,
+      38,
+      0,
+      37,
+      0,
+      "STRING"
+    ],
+    [
+      42,
+      41,
+      0,
+      40,
+      1,
+      "STRING"
+    ],
+    [
+      43,
+      42,
+      0,
+      40,
+      2,
+      "STRING"
+    ],
+    [
+      44,
+      39,
+      0,
+      40,
+      0,
+      "INT"
+    ],
+    [
+      45,
+      43,
+      0,
+      40,
+      3,
+      "STRING"
+    ],
+    [
+      46,
+      44,
+      0,
+      40,
+      4,
+      "STRING"
+    ],
+    [
+      47,
+      40,
+      0,
+      37,
+      1,
+      "STRING"
+    ],
+    [
+      48,
+      45,
+      0,
+      40,
+      5,
+      "STRING"
+    ],
+    [
+      49,
+      46,
+      0,
+      40,
+      6,
+      "STRING"
+    ],
+    [
+      54,
+      49,
+      0,
+      37,
+      6,
+      "STRING"
+    ],
+    [
+      55,
+      48,
+      0,
+      37,
+      5,
+      "STRING"
+    ],
+    [
+      56,
+      47,
+      0,
+      37,
+      4,
+      "STRING"
+    ],
+    [
+      57,
+      35,
+      0,
+      37,
+      3,
+      "STRING"
+    ],
+    [
+      58,
+      50,
+      0,
+      52,
+      2,
+      "BOOLEAN"
+    ],
+    [
+      59,
+      53,
+      0,
+      52,
+      0,
+      "STRING"
+    ],
+    [
+      60,
+      54,
+      0,
+      52,
+      1,
+      "STRING"
+    ],
+    [
+      61,
+      52,
+      0,
+      37,
+      2,
+      "STRING"
+    ],
+    [
+      63,
+      56,
+      0,
+      10,
+      0,
+      "INT"
+    ],
+    [
+      64,
+      56,
+      0,
+      39,
+      0,
+      "INT"
+    ],
+    [
+      66,
+      56,
+      0,
+      50,
+      0,
+      "INT"
+    ],
+    [
+      70,
+      60,
+      0,
+      56,
+      0,
+      "*"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "Subject",
+      "bounding": [
+        1280.2283935546875,
+        136.16436767578125,
+        520.2060546875,
+        651.5398559570312
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "Hair style",
+      "bounding": [
+        1284.646728515625,
+        825.61328125,
+        504.1502990722656,
+        657.5066528320312
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.8264462809917354,
+      "offset": [
+        419.0661403985868,
+        -46.55327485417891
+      ]
+    },
+    "frontendVersion": "1.20.6"
+  },
+  "version": 0.4
+}
