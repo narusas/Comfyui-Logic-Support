@@ -2,7 +2,7 @@
 
 A collection of logic and utility nodes for ComfyUI to enhance workflow capabilities.
 
-Version: 0.3.0
+Version: 0.4.0
 
 [한국어 README](README_ko.md)
 
@@ -84,6 +84,24 @@ Outputs a string based on a numeric index input, supporting up to 15 strings.
 - **Outputs**:
   - `STRING`: The selected string
 
+### NumberSequenceGenerator
+
+Generates a sequence of numbers within a specified range, repeating each number a specified number of times. Maintains state between workflow executions.
+
+- **Inputs**:
+  - `start_number`: Starting number of the sequence
+  - `end_number`: Ending number of the sequence
+  - `repeat_count`: Number of times to repeat each number
+  - `reset`: Whether to reset the sequence ("no" or "yes")
+  
+- **Outputs**:
+  - `NUMBER`: Current number in the sequence
+  
+- **Features**:
+  - State is maintained per workflow, allowing independent use in multiple workflows
+  - State persists across ComfyUI restarts (file-based state saving)
+  - State is maintained during repeated operations (multiple Run executions)
+
 ## Examples
 
 ### Using NumberRangeIndex for Conditional Processing
@@ -105,6 +123,12 @@ Outputs a string based on a numeric index input, supporting up to 15 strings.
 [Base Number: 10] → [BooleanIndexAdder] → [Output: 12]
 [Boolean Input 1: False] ↗
 [Boolean Input 2: True] ↗
+```
+
+### Sequential Number Generation with NumberSequenceGenerator
+
+```
+[NumberSequenceGenerator: start=1, end=3, repeat=2] → [Output sequence: 1,1,2,2,3,3,1,1,...]
 ```
 
 ## License

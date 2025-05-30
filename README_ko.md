@@ -2,7 +2,7 @@
 
 ComfyUI 워크플로우 기능을 향상시키기 위한 로직 및 유틸리티 노드 모음입니다.
 
-버전: 0.3.0
+버전: 0.4.0
 
 ## 개요
 
@@ -82,6 +82,24 @@ ComfyUI Logic Support는 ComfyUI 워크플로우를 향상시키기 위한 다�
 - **출력**:
   - `STRING`: 선택된 문자열
 
+### NumberSequenceGenerator
+
+지정된 범위 내의 숫자를 순차적으로 반환하는 노드입니다. 각 숫자는 지정된 횟수만큼 반복되며, 워크플로우 실행 간에 상태가 유지됩니다.
+
+- **입력**:
+  - `start_number`: 시퀀스의 시작 숫자
+  - `end_number`: 시퀀스의 끝 숫자
+  - `repeat_count`: 각 숫자의 반복 횟수
+  - `reset`: 시퀀스를 초기화할지 여부 ("no" 또는 "yes")
+  
+- **출력**:
+  - `NUMBER`: 시퀀스의 현재 숫자
+  
+- **특징**:
+  - 워크플로우 단위로 상태가 유지되어 여러 워크플로우에서 독립적으로 사용 가능
+  - ComfyUI 재시작 후에도 상태가 유지됨(파일 기반 상태 저장)
+  - 반복 작업(Run을 여러 번 설정)에서도 상태가 유지됨
+
 ## 사용 예시
 
 ### NumberRangeIndex를 이용한 조건부 처리
@@ -103,6 +121,12 @@ ComfyUI Logic Support는 ComfyUI 워크플로우를 향상시키기 위한 다�
 [기본 숫자: 10] → [BooleanIndexAdder] → [출력: 12]
 [Boolean 입력 1: False] ↗
 [Boolean 입력 2: True] ↗
+```
+
+### NumberSequenceGenerator를 이용한 순차적 숫자 생성
+
+```
+[NumberSequenceGenerator: start=1, end=3, repeat=2] → [출력 순서: 1,1,2,2,3,3,1,1,...]
 ```
 
 ## 라이센스
