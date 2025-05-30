@@ -8,6 +8,8 @@ A collection of logic and utility nodes for ComfyUI to enhance workflow capabili
 
 ComfyUI Logic Support is a custom node extension that provides various logic and utility nodes to enhance your ComfyUI workflows. These nodes enable more complex conditional logic, string manipulation, and numerical operations.
 
+![Example Workflow](logic_support_example.png)
+
 ## Installation
 
 1. Clone this repository into your ComfyUI custom_nodes directory:
@@ -110,3 +112,13 @@ MIT License
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Example Workflow
+
+The repository includes an example workflow (`logic_support_example.json`) that demonstrates how to use the logic nodes to create dynamic text prompts based on numeric inputs like age. This workflow uses:
+
+- `NumberRangeIndex` to determine age ranges
+- `StringSwitchByNumber` to select appropriate text based on the age range
+- `StringConcatenator` to combine multiple text elements into a final prompt
+
+You can load this example in ComfyUI by using the "Load" button and selecting the `logic_support_example.json` file.

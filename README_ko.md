@@ -6,6 +6,8 @@ ComfyUI 워크플로우 기능을 향상시키기 위한 로직 및 유틸리티
 
 ComfyUI Logic Support는 ComfyUI 워크플로우를 향상시키기 위한 다양한 로직 및 유틸리티 노드를 제공하는 커스텀 노드 확장입니다. 이 노드들을 통해 더 복잡한 조건부 로직, 문자열 조작 및 숫자 연산을 수행할 수 있습니다.
 
+![예제 워크플로우](logic_support_example.png)
+
 ## 설치 방법
 
 1. 이 저장소를 ComfyUI의 custom_nodes 디렉토리에 클론합니다:
@@ -108,3 +110,13 @@ MIT License
 ## 기여하기
 
 기여는 언제나 환영합니다! Pull Request를 제출해 주세요.
+
+## 예제 워크플로우
+
+이 저장소에는 나이와 같은 숫자 입력을 기반으로 동적 텍스트 프롬프트를 생성하는 방법을 보여주는 예제 워크플로우(`logic_support_example.json`)가 포함되어 있습니다. 이 워크플로우는 다음을 사용합니다:
+
+- `NumberRangeIndex`: 나이 범위를 결정하는 데 사용
+- `StringSwitchByNumber`: 나이 범위에 따라 적절한 텍스트를 선택하는 데 사용
+- `StringConcatenator`: 여러 텍스트 요소를 최종 프롬프트로 결합하는 데 사용
+
+ComfyUI에서 "Load" 버튼을 사용하여 `logic_support_example.json` 파일을 선택하면 이 예제를 로드할 수 있습니다.
