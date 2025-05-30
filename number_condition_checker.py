@@ -1,6 +1,20 @@
 class NumberConditionChecker:
     """
-    숫자 범위 체크 노드: 입력된 숫자가 지정된 범위 안에 들어오면 true, 아니면 false를 출력합니다.
+    Number Condition Checker Node: Checks if a number is within specified bounds and returns a boolean result.
+    
+    This node evaluates whether an input number satisfies specified conditions using lower and upper bounds.
+    The conditions can be configured using operators:
+    - Lower bound: NONE, < (less than), <= (less than or equal to)
+    - Upper bound: NONE, < (less than), <= (less than or equal to)
+    
+    When a bound is set to "NONE", that particular bound check is ignored.
+    
+    The node returns TRUE if the number satisfies all specified conditions, otherwise FALSE.
+    
+    Usage examples:
+    - Check if a number is between 0 and 10: lower_value=0, lower_op="<=", number=5, upper_op="<", upper_value=10 → TRUE
+    - Check if a number is positive: lower_value=0, lower_op="<", number=5, upper_op="NONE", upper_value=0 → TRUE
+    - Check if a number is at most 100: lower_value=0, lower_op="NONE", number=75, upper_op="<=", upper_value=100 → TRUE
     """
     
     @classmethod

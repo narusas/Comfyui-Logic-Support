@@ -1,6 +1,17 @@
 class BooleanIndexAdder:
     """
-    Boolean 인덱스 더하기 노드: 10개의 boolean 값 중 true인 첫 번째 값의 인덱스를 입력 숫자에 더합니다.
+    Boolean Index Adder Node: Adds the index of the first true value among 15 boolean inputs to a base number.
+    
+    This node takes up to 15 boolean inputs and a base number. It finds the first boolean input that is true 
+    and adds its index (1-based) to the base number. If no boolean input is true, it returns the base number unchanged.
+    
+    The node is useful for creating conditional logic flows where different paths need to be selected based on 
+    boolean conditions, and the result needs to be used as an index or identifier.
+    
+    Usage examples:
+    - With base_number=10 and bool1=False, bool2=True, bool3=False: returns 10+2=12
+    - With base_number=5 and all boolean inputs False: returns 5
+    - With base_number=0 and bool4=True: returns 0+4=4
     """
     
     @classmethod
@@ -18,6 +29,11 @@ class BooleanIndexAdder:
                 "bool8": ("BOOLEAN", {"default": False}),
                 "bool9": ("BOOLEAN", {"default": False}),
                 "bool10": ("BOOLEAN", {"default": False}),
+                "bool11": ("BOOLEAN", {"default": False}),
+                "bool12": ("BOOLEAN", {"default": False}),
+                "bool13": ("BOOLEAN", {"default": False}),
+                "bool14": ("BOOLEAN", {"default": False}),
+                "bool15": ("BOOLEAN", {"default": False}),
             },
         }
 
@@ -27,10 +43,11 @@ class BooleanIndexAdder:
     CATEGORY = "Logic-Support"
 
     def add_index(self, base_number, bool1, bool2, bool3, bool4, bool5, 
-                 bool6, bool7, bool8, bool9, bool10):
+                 bool6, bool7, bool8, bool9, bool10, bool11, bool12, bool13, bool14, bool15):
         # 모든 boolean 값을 리스트로 모음
         bools = [bool1, bool2, bool3, bool4, bool5, 
-                bool6, bool7, bool8, bool9, bool10]
+                bool6, bool7, bool8, bool9, bool10,
+                bool11, bool12, bool13, bool14, bool15]
         
         # true인 첫 번째 값의 인덱스 찾기 (1부터 시작)
         index_to_add = 0
