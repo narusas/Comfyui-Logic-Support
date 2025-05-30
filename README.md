@@ -2,6 +2,8 @@
 
 A collection of logic and utility nodes for ComfyUI to enhance workflow capabilities.
 
+Version: 0.3.0
+
 [한국어 README](README_ko.md)
 
 ## Overview

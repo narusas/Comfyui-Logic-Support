@@ -1,3 +1,5 @@
+__version__ = "0.3.0"
+
 from .switch_by_number import NODE_CLASS_MAPPINGS as SWITCH_NODE_CLASS_MAPPINGS
 from .switch_by_number import NODE_DISPLAY_NAME_MAPPINGS as SWITCH_NODE_DISPLAY_NAME_MAPPINGS
 from .number_condition_checker import NODE_CLASS_MAPPINGS as CONDITION_NODE_CLASS_MAPPINGS
