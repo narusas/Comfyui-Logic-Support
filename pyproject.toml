@@ -1,0 +1,15 @@
+[project]
+name = "logic-support"
+description = "A collection of logic and utility nodes for ComfyUI to enhance workflow capabilities."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/narusas/Comfyui-Logic-Support"
+#  Used by Comfy Registry https://registry.comfy.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Comfyui-Logic-Support"
+Icon = ""
+includes = []
